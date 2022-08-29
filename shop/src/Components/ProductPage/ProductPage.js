@@ -55,7 +55,6 @@ export default function ProductPage() {
                 src={selected === '' ? item.gallery[0] : selected} />
               <div className="productPage__titleContainer">
                 <h3 className="productPage__title">{item.name}</h3>
-
                 {item.attributes.map((attribute) => (
                   <div className="productPage__attributes">
                     <h1 className="productPage__attributeName" >{attribute.name}:</h1>
@@ -68,7 +67,6 @@ export default function ProductPage() {
                           attribute={attribute.name}
                           value={item.value}
                           style={{ backgroundColor: item.value }} />))}
-
                     </div>
                   </div>
                 ))}
@@ -76,10 +74,8 @@ export default function ProductPage() {
                 <span className="productPage__priceValue">
                   {choosenCurrensy} {item.price.find(({ currency }) =>
                     currency.symbol === choosenCurrensy).amount
-
                   }
                 </span>
-
                 <button
                   onClick={() => item.inStock && addToCart(item)}
                   className="productPage__button">
@@ -90,11 +86,7 @@ export default function ProductPage() {
                 </p>
               </div>
             </div>
-
           </div>
-
-
-
         ))
       }
     </div >
