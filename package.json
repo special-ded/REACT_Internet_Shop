@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
