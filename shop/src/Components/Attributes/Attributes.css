@@ -1,0 +1,44 @@
+.attributesComponent__attributeItem,
+.attributesComponent__attributeItemSelected {
+  box-sizing: border-box;
+  width: 63px;
+  height: 45px;
+  line-height: 45px;
+  background: #fff;
+  border: 1px solid #1D1F22;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #1D1F22;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  margin-right: 12px;
+}
+
+.attributesComponent__attributeItem:hover {
+  background: #1D1F22;
+  color: #FFFFFF;
+}
+
+.attributesComponent__attributeItemSelected {
+  background: #1D1F22;
+  color: #ffffff;
+}
+
+.attributesComponent__ItemColor,
+.attributesComponent__ItemSelectedColor {
+  box-sizing: border-box;
+  min-width: 32px;
+  width: fit-content;
+  height: 32px;
+  margin-right: 8px;
+  border: 1px solid #989e98;
+  cursor: pointer;
+}
+
+.attributesComponent__ItemSelectedColor {
+  border: 2px solid #5ECE7B;
+}

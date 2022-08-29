@@ -1,0 +1,76 @@
+.productCard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.productCard-component {
+  width: 386px;
+  height: 444px;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.productCard-component_inner {
+  margin: 16px auto;
+  width: 354px;
+  position: relative;
+}
+
+.productCard-title,
+.productCard-price {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1D1F22;
+  align-self: stretch;
+}
+
+.productCard-price {
+  font-weight: 500;
+}
+
+.productCard-image {
+  width: 354px;
+  height: 330px;
+  object-fit: cover;
+  filter: drop-shadow(0px 4px 35px rgba(168, 172, 176, 0.19));
+}
+
+.productCard-image:hover {
+  box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+
+}
+
+.productCard-cartLogo {
+  display: none;
+}
+
+.productCard-cartLogoHovered {
+  display: block;
+  position: absolute;
+  top: 70%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.notInStock {
+  background: #FFFFFF;
+  opacity: 0.5;
+}
+
+.productCard-notInStock {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  color: #8D8F9A;
+}

@@ -1,0 +1,131 @@
+.productPage {
+  /* background-color: grey; */
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productPage__listContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 58px;
+}
+
+.productPage__listImage {
+  width: 79px;
+  height: 80px;
+  margin-bottom: 40px;
+  list-style: none;
+
+}
+
+.productPage__smallImage {
+  width: 79px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.productPage__smallImage:hover {
+  transform: scale(1.2);
+}
+
+.productPage__mainContainer {
+  display: flex;
+  width: 1002px;
+  height: 595px;
+}
+
+.productPage__mainImage {
+  max-width: 510px;
+  height: 511px;
+  object-fit: cover;
+}
+
+.productPage__titleContainer {
+  width: 299px;
+  height: 595px;
+  margin-left: 100px;
+  margin-right: 219px;
+  display: flex;
+  flex-direction: column;
+}
+
+.productPage__title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+  align-items: center;
+  color: #1D1F22;
+}
+
+.productPage__price {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #1D1F22;
+
+}
+
+.productPage__priceValue {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+  color: #1D1F22;
+}
+
+.productPage__button {
+  cursor: pointer;
+  align-items: center;
+  padding: 16px 32px;
+  width: 292px;
+  height: 52px;
+  border: none;
+  color: #fff;
+  background: #5ECE7B;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  transition: all 250ms;
+  margin: 20px 0px;
+}
+
+.productPage__button:hover {
+  color: #5ECE7B;
+  background: #fff;
+}
+
+.productPage__description ul,
+.productPage__description {
+  list-style: none;
+  padding-left: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.96%;
+  color: #1D1F22;
+}
+
+.productPage__attributeName {
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #1D1F22;
+}
+
+.productPage__attributeItemContainer {
+  display: flex;
+  flex-direction: row;
+
+}

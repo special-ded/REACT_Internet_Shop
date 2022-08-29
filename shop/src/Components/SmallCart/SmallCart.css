@@ -1,0 +1,97 @@
+.smallCart__component {
+  position: absolute;
+  width: 325px;
+  height: 677px;
+  right: 290px;
+  top: 80px;
+  background-color: rgb(197, 74, 74);
+  z-index: 100;
+
+}
+
+.smallCart__componentInner {
+  overflow: auto;
+  width: 325px;
+  height: 531px;
+}
+
+.smallCart__componentProducts {
+  width: 293px;
+  margin: 0 auto;
+
+}
+
+.smallCart__componentProductsH1 span {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+.smallCart__componentProductsH1 {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 32px;
+
+}
+
+.smallCart__componentButtons {
+  width: 292px;
+  height: 160px;
+  margin: 0 auto;
+}
+
+.smallCart__componentButtonsViewBag,
+.smallCart__componentButtonsCheckOut {
+  width: 140px;
+  height: 43px;
+  padding: 16px 32px;
+  background: #FFFFFF;
+  border: 1px solid #1D1F22;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 11px;
+  color: #1D1F22;
+  cursor: pointer;
+}
+
+.smallCart__componentButtonsCheckOut {
+  background: #5ECE7B;
+  color: #FFFFFF;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-left: 12px;
+}
+
+.smallCart__componentValues {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.smallCart__componentValues h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #1D1F22;
+}
+
+.smallCart__componentValues span {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1D1F22;
+}

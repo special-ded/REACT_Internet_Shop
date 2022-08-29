@@ -1,0 +1,19 @@
+.Cart__componentTitle {
+  margin-left: 98px;
+  display: block;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #1D1F22;
+
+}
+
+.Cart__componentHr {
+  margin: 55px 95px 24px 95px;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
